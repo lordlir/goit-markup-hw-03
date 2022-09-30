@@ -1,0 +1,209 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  background-color: var(--background-main);
+}
+
+:root {
+  --brand-color: #2196f3;
+  --main-text-color: #212121;
+  --other-text-color: #757575;
+  --background-main: #ffffff;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+/*стилі шапки(header)*/
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: #000000;
+}
+
+.web-logo {
+  color: var(--brand-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link:focus {
+  color: var(--brand-color);
+}
+.nav-link.active {
+  color: var(--brand-color);
+}
+
+.contact-link {
+  color: var(--other-text-color);
+  font-weight: 500;
+  line-height: calc(16 / 14);
+}
+
+.contact-links .contact-link:hover,
+.contact-links .contact-link:focus {
+  color: var(--brand-color);
+}
+/*стилі підвала(footer)*/
+.footer {
+  background-color: #2f303a;
+  flex: 0 0 auto;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--background-main);
+}
+
+.footer-map {
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  color: var(--background-main);
+}
+
+.footer-contact {
+  font-style: normal;
+  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--brand-color);
+}
+/*стилі студії(1я страниця)
+1-я секція*/
+
+.banner-section {
+  background-color: #2f303a;
+}
+.banner-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-main);
+}
+.banner-button {
+  width: 216px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--brand-color);
+  color: var(--background-main);
+}
+
+.banner-button:hover,
+.banner-button:focus {
+  background-color: var(--background-main);
+  color: var(--main-text-color);
+}
+
+/*2я секція - переваги*/
+/*стилі заголовків сецій 2-4*/
+.section-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+.benefit {
+  width: 270px;
+}
+.advantage-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+.advantage {
+  line-height: calc(24 / 14);
+  color: var(--other-text-color);
+}
+/*3я секція - чим ми займаємося*/
+
+/*4а секція - наша команда*/
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.employee {
+  width: 270px;
+  background: var(--background-main);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.employee-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+.employee-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+  text-align: center;
+  color: var(--other-text-color);
+}
+/*стилі портфоліо(2я страниця)*/
+/*  - філтер*/
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: inherit;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--brand-color);
+  color: var(--background-main);
+}
+/*2а секція - розділи*/
+.project-item {
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+  background: var(--background-main);
+  border: 1px solid #eeeeee;
+}
+.project-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+.project-name {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--other-text-color);
+}
